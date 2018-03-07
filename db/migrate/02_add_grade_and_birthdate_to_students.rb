@@ -4,5 +4,6 @@ class Addgradeandbirthday < ActiveRecord::Migration
     add_column :grade, :birthday do |s|
       s.string :birthday
       s.integer :grade
+    end
   end
 end
